@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@theme inline {
+  --font-sans: 'Space Grotesk', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  section[id] { scroll-margin-top: 88px; }
+  body { margin: 0; background: #0a0a0b; font-family: 'Space Grotesk', sans-serif; }
+  button, a { -webkit-tap-highlight-color: transparent; }
+}
+
+.theme-light {
+  background: #f5f5ef !important;
+  color: #111113 !important;
+}
+
+.theme-light header,
+.theme-light footer { background: rgb(245 245 239 / 82%) !important; border-color: rgb(17 17 19 / 12%) !important; }
+.theme-light section.bg-\[\#111113\],
+.theme-light section[class*="bg-[#111113]"] { background: #e8e8df !important; border-color: rgb(17 17 19 / 12%) !important; }
+.theme-light .text-white { color: #111113 !important; }
+.theme-light [class*="text-white/"] { color: rgb(17 17 19 / 62%) !important; }
+.theme-light [class*="border-white/"] { border-color: rgb(17 17 19 / 16%) !important; }
+.theme-light [class*="bg-[#0a0a0b]"] { background: #f5f5ef !important; }
+.theme-light [class*="bg-[#18181b]"] { background: #deded5 !important; }
+.theme-light .bg-gradient-to-r { background-image: linear-gradient(to right, #f5f5ef, rgb(245 245 239 / 76%), transparent) !important; }
+.theme-light .bg-gradient-to-t { background-image: linear-gradient(to top, #f5f5ef, transparent, rgb(245 245 239 / 30%)) !important; }
+.theme-light .text-black { color: #111113 !important; }
+.theme-light .hover\\:bg-white:hover { background: #111113 !important; color: #f5f5ef !important; }
+.theme-light .hover\\:text-black:hover { color: #f5f5ef !important; }
+.theme-light .text-white\/35 { color: rgb(17 17 19 / 35%) !important; }
