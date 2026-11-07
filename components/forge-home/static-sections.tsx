@@ -7,7 +7,7 @@ export function Contact() {
 }
 
 export function TrainingVideo() {
-  return <section className="relative h-[120dvh] min-h-[120dvh] overflow-hidden border-b border-white/10"><video autoPlay muted loop playsInline preload="none" poster="/forge-training.png" className="absolute inset-0 h-full w-full object-cover opacity-65"><source src="https://videos.pexels.com/video-files/5319755/5319755-hd_1920_1080_25fps.mp4" type="video/mp4" /></video><div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0b] via-transparent to-[#0a0a0b]/35" /><div className="relative mx-auto flex h-full max-w-[1360px] flex-col justify-end px-5 pb-10 lg:px-10"><Reveal><h2 className="font-display text-4xl font-black uppercase sm:text-6xl md:text-8xl">Show up.<br /><span className="text-[#c6ff00]">Move forward.</span></h2></Reveal></div></section>
+  return <section className="relative h-[120dvh] min-h-[120dvh] overflow-hidden border-b border-white/10"><video autoPlay muted loop playsInline preload="none" poster="/forge-training.png" className="absolute inset-0 h-full w-full object-cover opacity-65"><source media="(min-width: 768px)" src="https://videos.pexels.com/video-files/5319755/5319755-hd_1920_1080_25fps.mp4" type="video/mp4" /></video><div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0b] via-transparent to-[#0a0a0b]/35" /><div className="relative mx-auto flex h-full max-w-[1360px] flex-col justify-end px-5 pb-10 lg:px-10"><Reveal><h2 className="font-display text-4xl font-black uppercase sm:text-6xl md:text-8xl">Show up.<br /><span className="text-[#c6ff00]">Move forward.</span></h2></Reveal></div></section>
 }
 
 export function Footer() {

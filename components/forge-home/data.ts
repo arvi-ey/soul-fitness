@@ -69,4 +69,15 @@ export const imageGallery = [
   'https://images.pexels.com/photos/29259734/pexels-photo-29259734.jpeg',
   'https://images.pexels.com/photos/29259736/pexels-photo-29259736.jpeg',
 ]
+
+export const gymGallery = [
+  'https://images.pexels.com/photos/4488752/pexels-photo-4488752.jpeg',
+  'https://images.pexels.com/photos/4162485/pexels-photo-4162485.jpeg',
+  'https://images.pexels.com/photos/4164463/pexels-photo-4164463.jpeg',
+  'https://images.pexels.com/photos/31012863/pexels-photo-31012863.jpeg',
+  'https://images.pexels.com/photos/40371848/pexels-photo-40371848.jpeg',
+  'https://images.pexels.com/photos/40371849/pexels-photo-40371849.jpeg',
+  'https://images.pexels.com/photos/6046983/pexels-photo-6046983.png',
+  'https://images.pexels.com/photos/6046978/pexels-photo-6046978.png',
+]
 export const links = ['programs', 'reviews', 'membership', 'contact']
