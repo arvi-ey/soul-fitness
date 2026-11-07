@@ -17,6 +17,11 @@
   button, a { -webkit-tap-highlight-color: transparent; }
 }
 
+.gallery-tile {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 360px;
+}
+
 .theme-light {
   background: #f5f5ef !important;
   color: #111113 !important;
