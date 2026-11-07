@@ -39,6 +39,6 @@
 .theme-light .bg-gradient-to-r { background-image: linear-gradient(to right, #f5f5ef, rgb(245 245 239 / 76%), transparent) !important; }
 .theme-light .bg-gradient-to-t { background-image: linear-gradient(to top, #f5f5ef, transparent, rgb(245 245 239 / 30%)) !important; }
 .theme-light .text-black { color: #111113 !important; }
-.theme-light .hover\\:bg-white:hover { background: #111113 !important; color: #f5f5ef !important; }
-.theme-light .hover\\:text-black:hover { color: #f5f5ef !important; }
+.theme-light .hover\:bg-white:hover { background: #111113 !important; color: #f5f5ef !important; }
+.theme-light .hover\:text-black:hover { color: #f5f5ef !important; }
 .theme-light .text-white\/35 { color: rgb(17 17 19 / 35%) !important; }
